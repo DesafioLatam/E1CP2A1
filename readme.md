@@ -1,4 +1,5 @@
-#Actividad Presencial2
+## Actividad 002 - HTML / CSS
+
 Se pide armar el HTML y CSS para construir una página web como la de la siguiente imagen.
 
 ![](ejercicio.png)
