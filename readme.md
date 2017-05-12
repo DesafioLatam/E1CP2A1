@@ -8,10 +8,12 @@ Tips para construir el sitio:
 
 - Fíjate en las secciones, ¿cuántas son?. Crea la estructura del HTML y luego agrega las secciones.
 
-- Con la estructura ya lista, agrega el contenido de todas las secciones y las imágenes.
+- Con la estructura ya lista, agrega el contenido y las imágenes de las secciones.
 
-- Utilizando CSS (en lo posible en el HEAD) da el tamaño de las secciones.
+- Utilizando CSS (en lo posible en el HEAD) define el tamaño a las secciones.
 
-- Utilizando CSS, alínea a los textos a la izquierda y agrega la foto de fondo en la tercera sección.
+- Alínea a la izquierda los textos de la tercera sección utilizando CSS y agrega la foto como fondo.
 
-- Finalmente busca la tipografía y agrega a las cabeceras correspondiente.
+- Busca las tipografías y agrégalas en la cabeceras correspondiente.
+
+- Finalmente agrega los colores de fondo y tipografías.
