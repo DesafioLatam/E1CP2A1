@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'El Rio Lobo';
+	src: url('../fonts/The_Emperors_font.eot');
+	src: url('../fonts/The_Emperors_font.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/The_Emperors_font.woff') format('woff'),
+		 url('../fonts/The_Emperors_font.ttf')  format('truetype'),
+		 url('../fonts/The_Emperors_font.svg#04a895ec2b9535ff55881607625d1b84') format('svg');
+
+	font-style: normal;
+	font-weight: 400;
+}
