@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <title>Las locuras del emperador</title>
+    <style media="screen">
+/* Estilos generales por etiqueta */
+      body{
+        margin: 0;
+      }
+      div{
+        width: 100%;
+      }
+      h1{
+        font-family: 'El Rio Lobo';
+        font-weight: normal;
+        color: gold;
+      }
+      p{
+        color: white;
+      }
+      li{
+        list-style: none;
+        margin-bottom: 40px;
+      }
+      li::before{
+        padding-right: 50px;
+      }
+/* Estilos específicos por DIV */
+      #primero{
+        background-color: rgb(179, 47, 47);
+        padding: 20px 0 40px 0;
+        text-align: center;
+      }
+      #segundo{
+        background-color: rgb(12, 134, 212);
+        padding: 20px 0;
+        text-align: center;
+      }
+      #tercero{
+        background-image: url('assets/images/cuzco2.jpg');
+        background-size: cover;
+        text-align: right;
+        height: 500px;
+      }
+      #cuarto{
+        width: calc(100% - 400px);
+        margin-left: 200px;
+        padding: 20px 0;
+        font-family: 'El Rio Lobo';
+      }
+      #item-1::before{
+        content: "- "
+      }
+      #item-2::before{
+        content: "&"
+      }
+      #item-3::before{
+        content: "©"
+      }
+/* Estilos generales por clase */
+      .alinear-centro{
+        text-align: center;
+      }
+      .alinear-izquierda{
+        text-align: left;
+      }
+      .grande{
+        font-size: 80px;
+        color: black;
+      }
+      .sin-margen{
+        margin: 0;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="primero">
+      <h1>Las locuras del Emperador !</h1>
+      <p> Nuestra primera página web </p>
+    </div>
+    <div id="segundo">
+      <img src="assets/images/cuzco.jpg" alt="Ese es cuzco!">
+    </div>
+    <div id="tercero">
+      <h1 class="sin-margen">Cuzco !!</h1>
+      <p>Ohh... sí.... el veneno...</p>
+      <p>El veneno para Cuzco...</p>
+      <p>El veneno que usaremos para matar a Cuzco</p>
+      <p>El veneno de Cuzco</p>
+      <p>claro...</p>
+      <p>Ese veneno</p>
+    </div>
+    <div id="cuarto">
+      <h1 class="grande alinear-centro">Precios</h1>
+      <ul class="grande alinear-izquierda">
+        <li id="item-1">$10.00</li>
+        <li id="item-2">$21.00</li>
+        <li id="item-3">$35.00</li>
+      </ul>
+    </div>
+  </body>
+</html>
