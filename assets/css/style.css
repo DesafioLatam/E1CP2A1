@@ -5,13 +5,13 @@ body{
 div{
   width: 100%;
 }
-h1{
+h1,h2{
   font-family: 'El Rio Lobo';
-  font-weight: normal;
   color: gold;
 }
 p{
   color: white;
+  margin: 8px 0;
 }
 li{
   list-style: none;
@@ -43,6 +43,10 @@ li::before{
   padding: 20px 0;
   font-family: 'El Rio Lobo';
 }
+#cuarto h1{
+  font-weight: normal;
+}
+
 #item-1::before{
   content: "- "
 }
@@ -64,5 +68,5 @@ li::before{
   color: black;
 }
 .sin-margen{
-  margin: 0;
+  margin: 0 0 15px 0;
 }
