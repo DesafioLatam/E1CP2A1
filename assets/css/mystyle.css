@@ -1,0 +1,21 @@
+		@import url(fonts.css);
+			#body{margin: 0px}	
+			#a{background-color: #8A0808;padding: 20px}
+		.aa{font-family: 'El Rio Lobo';font-size: 30px; text-align: center;color: yellow ; line-height: 0px }
+			#aaa{font-size: 20px; text-align: center;color: white}
+		/* Comienzo de la segunda parte, se agrego texto, fuentes y tamaño*/ 
+		/* todos los cambios dentro del Head de CSS */
+		/*comenzamos segunda parte */
+			#b{background-color:#58ACFA ; padding: 1px;}
+		.bb{ margin: 10px auto; display: block; }
+		/*comienza la tercara parte */
+			#c{ background-color: black; padding:3px}	
+			#cc{text-align: right; font-size: 30px}
+			#ccc{text-align: right;color: white; position: absolute; top: 423px; right:5px}
+		/*comienza cuarta parte , de configuracion de la imagen */
+			#d{background-image: url(../images/cuzco2.jpg); background-size: cover;height: 500px;}
+		/*#dd{background-size: cover ; height: 800px}*/
+			/*última parte de la página no esta buena, pero se hizo empeño, revisando nuevamente videos, google etc */
+		.e{font-size: 50px ;font-family:'Skranji', cursive;text-align: center; padding: }
+			#zz{ text-align: center; list-style: none; }
+		.zz{font-family:'El Rio Lobo'; font-size: 50px }
